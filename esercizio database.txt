@@ -1,0 +1,79 @@
+Gestione Biblioteca:   
+
+-Libri:
+Titolo                       string/varchar
+Autore                       string/varchar
+Anno di pubblicazione        byte/tinyint
+Isbn                         string/varchar
+n.identificativo biblioteca      string/varchar
+disponibilità                boolean/bit
+
+-Membri:
+Nome e cognome               string/varchar
+email                        string/varchar
+numero di telefono           string/varchar
+indirizzo                    string/varchar
+documento di identità        string/varchar
+data di iscrizione           string/varchar
+numero membro                 short/smallint
+
+-Prestiti:
+Libro (titolo)                string/varchar
+numero libro                  int/mediumint
+Persona (nome e cognome)      string/varchar
+numero membro                 short/smallint
+data prestito                 localdate/date
+data fine prestito            localdate/date
+
+
+
+
+Catalogo di un Ristorante:
+
+
+Piatti:
+Nome         string/varchar
+prezzo        float/float
+categoria    string/varchar
+descrizione   string/varchar
+
+Ingredienti
+nome                     string/varchar
+allergeni contenuti      string/varchar
+
+Clienti
+Nome e cognome               string/varchar
+email                        string/varchar
+numero di telefono           string/varchar
+indirizzo                    string/varchar
+
+
+
+
+
+
+Catalogo di un Negozio di Fiori
+
+Fiori
+nome                 string/varchar
+colore               string/varchar
+tipologia            string/varchar
+veri                 boolean/bit
+finti                boolean/bit
+prezzo               float/float
+spedizione               boolean/bit
+quantità             short/smallint
+
+
+Fornitori
+nome azienda                 string/varchar
+email                        string/varchar
+numero di telefono            string/varchar
+indirizzo                    string/varchar
+
+Clienti
+Nome e cognome               string/varchar
+email                        string/varchar
+numero di telefono           string/varchar
+indirizzo                    string/varchar
+
